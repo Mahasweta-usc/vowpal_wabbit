@@ -36,7 +36,7 @@ use Getopt::Std;
 use Scalar::Util qw(looks_like_number);
 use File::Temp;
 use vars qw($opt_v $opt_b $opt_t $opt_c $opt_L $opt_e);
-
+[- $optRawInput = 1 -]
 my $MaxDouble = 1.79769e+308;
 my $ModelFile;
 my $ScratchModel = 0;
