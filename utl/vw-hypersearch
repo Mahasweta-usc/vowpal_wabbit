@@ -1,4 +1,4 @@
-
+#!/usr/bin/env perl
 # vim: ts=4 sw=4 expandtab nosmarttab
 #
 # vw generic optimal parameter golden-section search
