@@ -267,7 +267,7 @@ sub argmin3 ($$$$$$) {
 sub usage(@) {
     print STDERR @_, "\n" if @_;
 
-    die "Usage: $0 [options] <lower_bound> <upper_bound> [tolerance] vw-command...
+    die "Usage: $0 [options] <lower_bound> <upper_bound> [tolerance] vw-command..."
     Options:
         -t <TS>     Use <TS> as test-set file + evaluate goodness on it
         -c <TC>     Use <TC> as test-cache file + evaluate goodness on it
@@ -275,7 +275,7 @@ sub usage(@) {
                      instead of <TS>)
         -L          Use log-space for mid-point bisection
         -e <prog>   Use <prog> (external utility) to evaluate how good
-                    the result is instead of vw's own 'average loss' line
+                    the result is instead of vw
                     The protocol is: <prog> simply prints a number (last
                     line numeric output is used) and the search attempts
                     to find argmin() for this output.  You may also pass
@@ -291,7 +291,7 @@ sub usage(@) {
             -t ... for doing a line-search on a test-set is an
             argument to '$0', not to 'vw'.  vw-command must
             represent the training-phase only.
-"
+
 }
 
 #
